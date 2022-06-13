@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "moarmor",
+  "version": "${version}",
+
+  "name": "HattN's Moarmor",
+  "description": "An advanced expansion and addition of minecraft's armors.",
+  "authors": [
+    "HattN"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.hattn.moarmor.Moarmor"
+    ]
+  },
+  "mixins": [
+    "moarmor.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
